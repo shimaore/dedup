@@ -1,0 +1,34 @@
+{
+  "name": "dedup",
+  "version": "0.1.0",
+  "description": "Remove duplicate identical files from a list.",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "./node_modules/.bin/coffee -c -s < dedup.coffee  > index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:shimaore/dedup.git"
+  },
+  "keywords": [
+    "remove",
+    "duplicate",
+    "files"
+  ],
+  "author": "Stephane Alnet <stephane@shimaore.net>",
+  "license": "Public Domain",
+  "bugs": {
+    "url": "https://github.com/shimaore/dedup/issues"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
+  },
+  "dependencies": {
+    "byline": "~3.1.2",
+    "q": "~0.9.7"
+  },
+  "bin": {
+    "dedup": "./index.js"
+  }
+}

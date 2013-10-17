@@ -35,7 +35,7 @@ queue = {}
 concurrent = 0
 max_concurrent = 20
 
-run = ->
+@run = ->
   hashes = {}
 
   remove_dups = ->
@@ -98,5 +98,3 @@ run = ->
     finalize = true
     # if concurrent is 0
     #  remove_dups
-
-do run

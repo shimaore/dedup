@@ -1,6 +1,6 @@
 {
   "name": "dedup",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Remove duplicate identical files from a list.",
   "main": "dedup.js",
   "scripts": {

@@ -25,8 +25,8 @@
     "coffee-script": "~1.6.3"
   },
   "dependencies": {
-    "byline": "~3.1.2",
-    "q": "~0.9.7"
+    "byline": "~4.2.1",
+    "q": "~1.4.1"
   },
   "bin": {
     "dedup": "index.js"
